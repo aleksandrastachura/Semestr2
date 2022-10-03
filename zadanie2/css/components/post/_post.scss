@@ -1,7 +1,7 @@
 .post {
     margin-bottom: 20px;
     background-color: $color-white;
-    border: 1px solid $color-border;
+    border: 1px solid $color-neutral--dark;
     border-radius: 7px;
     &:last-child {
         margin-bottom: 0;
@@ -29,18 +29,17 @@
             }
         }
     }
-    &__comments {
-        &-comment {
+    &__comments-comment {
             a {
-                color: $color-tertiary;
+                color: $color-neutral--darker;
             }
-        }
+        
     }
     &__footer {
         display: flex;
         align-items: center;
         padding: 15px;
-        border-top: 1px solid $color-secondary;
+        border-top: 1px solid $color-neutral;
     }
     &--loader {
         padding: 15px;
