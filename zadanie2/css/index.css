@@ -485,7 +485,9 @@ input.search-input {
 .post {
   margin-bottom: 20px;
   background-color: #ffffff;
-  border: 1px solid #dbdbdb;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dbdbdb;
   border-radius: 7px;
 }
 .post:last-child {

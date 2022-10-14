@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-self: center;
-    width: 56px;
-    height: 56px;
+    @include square(56px);
     border-radius: 100%;
     overflow: hidden;
     &--small {
