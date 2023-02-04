@@ -319,7 +319,7 @@ html, body {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #F5F4D7;
+  background-color: #fafafa;
   font-size: 14px;
 }
 
@@ -402,7 +402,7 @@ a:hover {
   height: 24px;
 }
 .image-square.has-border {
-  border: 1px solid #535233;
+  border: 1px solid #dbdbdb;
 }
 .image-square.is-active {
   border: 2px solid #dd2a7c;
@@ -446,7 +446,7 @@ input.search-input {
   margin-bottom: 30px;
   padding: 10px 0;
   background-color: #ffffff;
-  border-bottom: 2px solid #951F2B;
+  border-bottom: 1px solid #dbdbdb;
 }
 .page-header__wrapper {
   display: flex;
@@ -487,7 +487,7 @@ input.search-input {
   background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
-  border-color: #535233;
+  border-color: #dbdbdb;
   border-radius: 7px;
 }
 .post:last-child {
@@ -536,7 +536,7 @@ input.search-input {
   margin-bottom: 20px;
   padding: 15px 0;
   background-color: #ffffff;
-  border: 1px solid #535233;
+  border: 1px solid #dbdbdb;
   border-radius: 7px;
 }
 .stories-box__list {
